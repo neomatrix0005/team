@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Store data</title>
+    <title></title>
     <meta name="author" content="team1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="main.css">
@@ -70,25 +70,27 @@
      <hr id="secondLine"><hr id="secondLine"><hr id="secondLine"><hr id="secondLine"><hr id="secondLine"><hr id="secondLine"><hr id="secondLine">
      <hr>
 
-     <iframe id="loginPageFrame" src="frame.html" width="430px" height="400px;"></iframe>
+     <div id="frameContainer">
+       <iframe  id="loginPageFrame" src="frame.html" width="430px" height="400px;"></iframe>
+     </div>
 
      <div class="slideshow-container">
  <div class="mySlides fade">
    <div class="numbertext">1 / 3</div>
-   <img src="images/image1.jpg" style="width:100%">
-   <div class="text">Caption Text</div>
+   <img src="images/pixels.gif" style="width:100%">
+   <div class="text">FIRST IMAGE</div>
  </div>
 
  <div class="mySlides fade">
    <div class="numbertext">2 / 3</div>
-   <img src="images/image2.jpeg" style="width:100%">
-   <div class="text">Caption Two</div>
+   <img src="images/pixels1.gif" style="width:100%">
+   <div class="text">SECOND IMAGE</div>
  </div>
 
  <div class="mySlides fade">
    <div class="numbertext">3 / 3</div>
-   <img src="images/image3.jpeg" style="width:100%">
-   <div class="text">Caption Three</div>
+   <img src="images/pixels.gif" style="width:100%">
+   <div class="text">THIRD IMAGE</div>
  </div>
 
  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -101,5 +103,19 @@
  <span class="dot" onclick="currentSlide(2)"></span>
  <span class="dot" onclick="currentSlide(3)"></span>
 </div>
+
+   <div id="about">
+     <h2 id="aboutUs">ABOUT US</h2>
+     <br>
+     <p id="messageAboutUs">This is an about us section describing about the members of the team.</p>
+     <br>
+  <div class="imageSectionInAboutUs">
+       <div id="image1"><p id="aboutUsMemberMessage"><img id="widthOfImage" src="images/image2.jpeg" alt="Shubham Bagwari ">  This is a bit about myself. I am a student of GEHU.</p></div>
+       <div id="image2"><p id="aboutUsMemberMessage"><img id="widthOfImage" src="images/image2.jpeg" alt="Rishabh Aggarwal ">   This is a bit about myself. I am a student of GEHU.</span></div>
+       <div id="image3"><p id="aboutUsMemberMessage"><img id="widthOfImage" src="images/image2.jpeg" alt="Vivek ">   This is a bit about myself. I am a student of GEHU.</span></div>
+       <div id="image4"><p id="aboutUsMemberMessage"><img id="widthOfImage" src="images/image2.jpeg" alt="Rohit Sarna ">  This is a bit about myself. I am a student of GEHU.</p></div>
+     </div>
+   </div>
+
   </body>
 </html>
