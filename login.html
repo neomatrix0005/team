@@ -5,6 +5,9 @@
     <title>Login Page</title>
     <link rel="stylesheet" href="main.css">
     <script type="text/javascript">
+     function load(){
+       window.location.href= "frame.html";
+     }
 
   </script>
   </head>
@@ -15,6 +18,7 @@
       <p><span id="equalWidth"><label for="passwordLogin"> Password :</label></span><input type="password" name="passwordLoginId" placeholder = "password"></p>
       <a id="forgotPassword" href=""><em >forgot your password ?</em></a>
       <input id="rightFloat" type="button" name="Login" value="Login" onclick= "">
+      <input id="rightFloat" type="button" name="Back" value="Back" onclick= "load()">
     </form>
   </body>
 </html>
